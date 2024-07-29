@@ -1,3 +1,3 @@
-- [[file:intro.org][Intro]]
-- [[file:keybindings.org][All The Shortcuts Are Grey]]
+- [[file:intro.org][Stairway to Emacs: Intro]]
+- [[file:key-bindings.org][All The Shortcuts Are Grey: Key Bindings]]
 

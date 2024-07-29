@@ -4,7 +4,7 @@ This book:
 
 | Aims to be...      | Because...                           |
 |--------------------+--------------------------------------|
-| Essential          | Your time is precious.               |
+| Essential          | Your time is precious                |
 | Practical          | Less talk, more action               |
 | Incremental        | You want to use Emacs from the day-0 |
 | Modern             | It's the 21st century                |
@@ -24,5 +24,5 @@ I'm convinced that there are only 2 hard things in Emacs:
 2. Getting finished: Emacs is a programmable environment, not an
   editor, and there are literally no limits to it. 
 
-This book aims to help with 1 only --- and hopefully to let you
+This book aims to help you with 1 only --- and hopefully to let you
 fall ethernally in the 2nd trap.

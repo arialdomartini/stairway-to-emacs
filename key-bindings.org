@@ -58,6 +58,7 @@ Get familiar with the Emacs parlance. We will use it from now on:
 |-------------------+-----------------+---------------------------------------------------|
 | =Alt-X=           | =M-x=           | Pronounced *Meta X*                               |
 | =Ctrl-G=          | =C-g=           |                                                   |
+| Shortcut          | Key Binding     |                                                   |
 | Displayed content | Buffer          | Any content, even if not displayed, is "a buffer" |
 | To open a file    | To visit a file |                                                   |
 
