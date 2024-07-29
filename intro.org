@@ -1,0 +1,13 @@
+* Intro
+
+This book:
+
+| Aims to be...      | Because...                                     |
+|--------------------+------------------------------------------------|
+| Practical          | Less talk, more action                         |
+| Essential          | Your time is precious.                         |
+| Incremental        | You should be able to use Emacs from the day-0 |
+| Modern             | It's the 21st century                          |
+| Hand made, AI free | I respect your intelligence                    |
+
+
