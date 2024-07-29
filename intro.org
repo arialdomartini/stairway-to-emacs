@@ -1,19 +1,20 @@
 * Intro
 This book:
 
-| Aims to be...      | Because...                                |
-|--------------------+-------------------------------------------|
-| Essential          | Your time is precious.                    |
-| Practical          | Less talk, more action.                   |
-| Incremental        | You want to use Emacs from the day-0.     |
-| Modern             | It's the 21st century.                    |
-| GPL and Free       | I am merely giving back what I was given. |
-| Hand made, AI free | I respect your intelligence.              |
+| Aims to be...      | Because...                                                     |
+|--------------------+----------------------------------------------------------------|
+| Essential          | Your time is precious.                                         |
+| Practical          | Less talk, more action.                                        |
+| Incremental        | You want to use Emacs from the day-0.                          |
+| Possibly modern    | It's the 21st century.                                         |
+| Alternative        | Learning tables of shortcuts only for moving around is boring. |
+| Hand made, AI free | I respect your intelligence.                                   |
+| GPL and Free       | I am merely giving back what I was given.                      |
 
 Each chapter:
 
 - Is short enough to fit the time of a single rock song.
-- Is, in most cases, independent from the others.
+- Can be read, one each day, leaving you the time to practice.
   
 ** Why?
 I'm convinced that there are only 2 hard things in Emacs:
@@ -30,7 +31,7 @@ fall in the trap of the 2nd, eternally.
 
 - You will build your Emacs configuration from the scratch.
 - Whenever bored, you can always switch to an out-of-the-box
-  distributions such as [[doom][Doom Emacs]] or [[spacemacs][(spacemacs)]].
+  distribution such as [[doom][Doom Emacs]] or [[spacemacs][(spacemacs)]].
 - I will provide easy instructions, but you will still need to
   challenge yourself getting your hands dirty.
 
