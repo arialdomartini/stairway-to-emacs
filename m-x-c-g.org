@@ -13,18 +13,19 @@ to know by heart:
 palette from which to run any of the available commands.\\
 Try:
 
-* Open Emacs
-* Hit =Alt-X=.
-* The focus moves to a 1-line input area in the bottom.
-* Type =dired-jump= there.
-* Hit =Enter=.
+| Do                      | Comment                                               |
+|-------------------------+-------------------------------------------------------|
+| Open Emacs              |                                                       |
+| Hit =Alt-X=             | The focus moves to a 1-line input area in the bottom. |
+| Type =dired-jump= there | Like the shell, you can use =TAB= to complete.        |
+| Hit =Return=       |                                                       |
 
 This will show the content of the current directory.\\
 Close it with:
 
 * Hit =Alt-X=.
 * type =quit-window=.
-* Hit =Enter=.
+* Hit =Return=.
 
 If you find yourself stuck, =Ctrl-G= is your friend.
 
@@ -54,11 +55,12 @@ Remember, if stuck, =Ctrl-G=.
 ** Emacs Lingo
 Get familiar with the Emacs parlance. We will use it from now on:
 
-| Original form     | In Emacs lingo  | Notes                                             |
-|-------------------+-----------------+---------------------------------------------------|
-| =Alt-X=           | =M-x=           | Pronounced *Meta X*                               |
-| =Ctrl-G=          | =C-g=           |                                                   |
-| Shortcut          | Key Binding     |                                                   |
-| Displayed content | Buffer          | Any content, even if not displayed, is "a buffer" |
-| To open a file    | To visit a file |                                                   |
+| Original form                                     | In Emacs lingo       | Notes                                             |
+|---------------------------------------------------+----------------------+---------------------------------------------------|
+| =Alt-X=                                           | =M-x=                | Pronounced *Meta X*                               |
+| =Ctrl-G=                                          | =C-g=                |                                                   |
+| Hit =Alt-X=, type =dired-jump=, then hit =Return= | =M-x dired-jump RET= |                                                   |
+| Shortcut                                          | Key Binding          |                                                   |
+| Displayed content                                 | Buffer               | Any content, even if not displayed, is "a buffer" |
+| To open a file                                    | To visit a file      |                                                   |
 

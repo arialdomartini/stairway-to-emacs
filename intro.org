@@ -1,21 +1,20 @@
 * Intro
-
 This book:
 
-| Aims to be...      | Because...                           |
-|--------------------+--------------------------------------|
-| Essential          | Your time is precious                |
-| Practical          | Less talk, more action               |
-| Incremental        | You want to use Emacs from the day-0 |
-| Modern             | It's the 21st century                |
-| Hand made, AI free | I respect your intelligence          |
+| Aims to be...      | Because...                                |
+|--------------------+-------------------------------------------|
+| Essential          | Your time is precious.                    |
+| Practical          | Less talk, more action.                   |
+| Incremental        | You want to use Emacs from the day-0.     |
+| Modern             | It's the 21st century.                    |
+| GPL and Free       | I am merely giving back what I was given. |
+| Hand made, AI free | I respect your intelligence.              |
 
 Each chapter:
 
-- Is short enough to fit a single rock song.
+- Is short enough to fit the time of a single rock song.
 - Is, in most cases, independent from the others.
-
-
+  
 ** Why?
 I'm convinced that there are only 2 hard things in Emacs:
 
@@ -25,4 +24,16 @@ I'm convinced that there are only 2 hard things in Emacs:
   editor, and there are literally no limits to it. 
 
 This book aims to help you with 1 only --- and hopefully to let you
-fall ethernally in the 2nd trap.
+fall in the trap of the 2nd, eternally.
+
+** How?
+
+- You will build your Emacs configuration from the scratch.
+- Whenever bored, you can always switch to an out-of-the-box
+  distributions such as [[doom][Doom Emacs]] or [[spacemacs][(spacemacs)]].
+- I will provide easy instructions, but you will still need to
+  challenge yourself getting your hands dirty.
+
+
+#+TARGET: doom https://github.com/doomemacs/
+#+TARGET: spacemacs https://www.spacemacs.org/

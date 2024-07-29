@@ -1,0 +1,83 @@
+* Package in a bottle
+
+Using Emacs like this is a miserable experience: not very
+ergonomic.
+
+Improve it installing [[vertico][vertico.el]], a package that makes finding files
+and running commands more convenient.
+
+You need to open the Emacs configuration file. To know where it is,
+ask Emacs directly. Emacs is the runtime of an interactive programming
+language, so it comes with variables. The one containing the
+configuration file path is =user-init-file=. Use =describe-variable=
+to inspect it:
+
+| Do                                             | Comment                                                |
+|------------------------------------------------+--------------------------------------------------------|
+| =M-x describe-variable RET user-init-file RET= | A documentation pane will appear, containing the path. |
+
+Alternatively, evaluate the variable in the Scratch Buffer, a
+disposable area free for you to use for impromptu experiments:
+
+| Do                       | Comment                                               |
+|--------------------------+-------------------------------------------------------|
+| =M-x scratch-buffer RET= | Open the scratch buffer.                              |
+| Type =user-init-file=    | Keep the cursor right after the last =e=.             |
+| =M-x eval-last-sexp RET= | This =eval=uates the =last= =s=symbolic-=exp=ression. |
+
+You should get:
+
+| Operating system | Value of =user-init-file=                                            |
+|------------------+----------------------------------------------------------------------|
+| Windows          | =c:/Users/<YOUR_ACCOUNT>/AppData/Roaming/.emacs.d/init.el=           |
+| Linux and macOS  | =~/.config/emacs.d/init.el= or =~/.emacs.el= or =~/.emacs.d/init.el= |
+
+
+Edit this file (feel free to use your preferred editor!) and write:
+
+#+begin_src elisp
+(require 'package)
+(package-initialize)
+
+(use-package vertico
+  :ensure t
+  :config
+  (vertico-mode))
+#+end_src
+
+
+Given that an expression like =(f a b)= is equivalent to JavaScript's
+=f(a, b)=, here's an explanation of your first =init.el= script:
+
+| Expression             | Meaning                                                                                                              |
+|------------------------+----------------------------------------------------------------------------------------------------------------------|
+| =(require 'package)=   | This is equivalent to JS' =require= or Python's / Java's =import=. =package= is the Emacs' built-in package manager. |
+| =(package-initialize)= | Initialize the package-manager.                                                                                      |
+| =(use-package vertico= | Load the package =vertico=                                                                                           |
+| =  ensure t=           | downloading it from the internet, if not present.                                                                    |
+| =  config=             | and when it's ready...                                                                                               |
+| =  (vertico-mode))=    | activate it!                                                                                                         |
+
+
+Save the file, close Emacs (=M-x save-buffers-kill-terminal RET=) and
+reopen it. If you felt so brave to edit this file with Emacs, you
+don't need to quit Emacs: just run =M-x eval-buffer= to execute
+=init.el= in place.
+
+** Try [[vertico][vertico.el]]
+Try again typing =M-x find-file=. Cool, a real-time list of matching
+candidates while you type the command. And a real-time, searchable
+list of files.
+
+Notice that when you were typing =find-file= the list of candidates
+also suggests some key bindings. The one for =find-file= is =C-x C-f=.
+Good to know. Eventually, you might prefer using a shortcut instead of
+the whole command. (Hey! Be aware that =C-x f= and =C-x C-f= are 2
+distinct key bindings!)
+
+[[vertico][vertico.el]] does much more than this. Eventually, you will like to find
+out all the functionalities of a package reading its documentation,
+when you install one. But take your time. You just started the journey
+and Emacs is going to accompany you forever.
+
+#+TARGET: vertico https://github.com/minad/vertico

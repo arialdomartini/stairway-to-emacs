@@ -1,0 +1,61 @@
+** which-key in the Sky with Diamonds
+vertico.el lets you easily see which keybindings are associated to
+commands. This information was anyway available:
+
+- while completing commands with =TAB=.
+- asking Emacs for command's documentation with =M-x describe-command
+  RET <command> RET=.
+
+You will eventually end up learning:
+
+| Command                      | Action      | Keybinding |
+|------------------------------+-------------+------------|
+| =find-file=                  | Open a file | =C-x C-f=  |
+| =save-buffer=                | Save a file | =C-x C-s=  |
+| =save-buffers-kill-terminal= | Quit Emacs  | =C-x C-k=  |
+
+But don't panic: there is no point trying to remember all of them just
+yet. Instead, let Emacs remember them for you.
+
+Try =which-key=, a package that suggests key bindings while you type
+them. You already know how to edit the Emacs's =init.el= file. Try
+editing it with Emacs itself:
+
+| Do                              | Comment                                          |
+|---------------------------------+--------------------------------------------------|
+| =M-x file-open RET=             | or =C-x C-f=                                     |
+| =~/.config/emacs.d/init.el RET= | Your mileage might vary: see [[file:use-package.org][Package In A Bottle]] |
+
+
+#+begin_src elisp
+(require 'package)
+(package-initialize)
+
+(use-package vertico
+  :ensure t
+  :config
+  (vertico-mode))
+
+(use-package which-key
+  :config
+  (which-key-mode))
+#+end_src
+
+Nothing new here besides the lack of =:ensure t=: indeed, =which-key=
+is built-in in Emacs so it needn't be downloaded.
+
+Update Emacs re-evaluating the file (=M-x eval-buffer=). Now, if you
+begin typing a key binding, say hitting =C-x=, after a bit Emacs,
+seing you undecided, will display a cheat-sheet. Since this is
+dynamically generated, this will work with any present and future
+keybindings.
+
+If you want to close the cheat-sheet before completing the key
+binding, you know what to do: use the global =C-g= abort key binding.
+
+As it happens with most of the Emacs' packages, [[which-key][which-key]] too is
+amazingly configurable. Its long documentation is worth to be read.
+But you have no need to rush: the girl with kaleidoscope eyes is
+infinitely understanding and patient.
+
+#+TARGET: which-key https://github.com/justbur/emacs-which-key

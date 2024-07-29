@@ -1,0 +1,59 @@
+| Song                               | Band         | Used for                 |
+|------------------------------------+--------------+--------------------------|
+| Stairway to Emacs                  | Led Zeppelin | Main Title               |
+| All The Shortcuts Are Grey         | The Cure     | M-x, C-g                 |
+| Package In A Bottle                | The Police   | use-package + vertico.el |
+| which-key in the Sky with Diamonds | The Beatles  | which-key                |
+| Smells Like Term Spirit            | Nirvana      |                          |
+| Highway to Shell                   | AC/DC        |                          |
+| God hist-save the Queen            |              |                          |
+
+
+| Song                          | Band        |
+|-------------------------------+-------------|
+| Should I stay of should I go  | The Clash   |
+| Strawberry Fields Forever     | The Beatles |
+
+
+
+
+| The Beatles                  |
+| Led Zeppelin                 |
+| Pink Floyd                   |
+| The Rolling Stones           |
+| Queen                        |
+| AC/DC                        |
+| Nirvana                      |
+| Guns N' Roses                |
+| U2                           |
+| Metallica                    |
+| Foo Fighters                 |
+| Red Hot Chili Peppers        |
+| Green Day                    |
+| Linkin Park                  |
+| Radiohead                    |
+| The Doors                    |
+| Pearl Jam                    |
+| Blink-182                    |
+| Coldplay                     |
+| The Eagles                   |
+| Black Sabbath                |
+| Oasis                        |
+| Bon Jovi                     |
+| Van Halen                    |
+| The Cure                     |
+| Imagine Dragons              |
+| Muse                         |
+| Twenty One Pilots            |
+| R.E.M.                       |
+| The Smashing Pumpkins        |
+| Alice in Chains              |
+| Linkin Park                  |
+| Tame Impala                  |
+| Florence + The Machine       |
+| Lynyrd Skynyrd               |
+| The White Stripes            |
+| Cake                         |
+| System of a Down             |
+| The Offspring                |
+| Evanescence                  |

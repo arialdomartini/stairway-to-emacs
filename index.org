@@ -1,3 +1,4 @@
 - [[file:intro.org][Stairway to Emacs: Intro]]
-- [[file:key-bindings.org][All The Shortcuts Are Grey: Key Bindings]]
-
+- [[file:m-x-c-g.org][All The Shortcuts Are Grey: M-x and C-g]]
+- [[file:use-package.org][Package In A Bottle: use-package and vertico.el]]
+- [[file:which-key.org][which-key In The Sky With Diamonds: which-key]]
