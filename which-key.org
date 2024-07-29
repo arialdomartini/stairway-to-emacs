@@ -53,9 +53,9 @@ keybindings.
 If you want to close the cheat-sheet before completing the key
 binding, you know what to do: use the global =C-g= abort key binding.
 
-As it happens with most of the Emacs' packages, [[which-key][which-key]] too is
-amazingly configurable. Its long documentation is worth to be read.
-But you have no need to rush: the girl with kaleidoscope eyes is
-infinitely understanding and patient.
+As it happens with most of the Emacs' packages, [[which-key][which-key]] can be
+configured in each aspects. Its thorough documentation is worth to be
+read. But you have no need to rush: the girl with kaleidoscope eyes is
+infinitely understanding and patient. Take your time and enjoy the ride.
 
 #+TARGET: which-key https://github.com/justbur/emacs-which-key
