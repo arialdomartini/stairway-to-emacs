@@ -1,0 +1,63 @@
+* All The Shortcuts Are Grey
+
+There is the myth that Emacs is hard because of the astonishing amount
+of its shortcuts. Here's my trick: there are only 2 shortcuts you have
+to know by heart:
+
+| Shortcut | Purpose                   |
+|----------+---------------------------|
+| =Alt-X=  | Run any command           |
+| =Ctrl-G= | Cancel what you are doing |
+
+=M-x= is equivalent to VS Code's =Ctrl+Shift+P=: it opens a command
+palette from which to run any of the available commands.\\
+Try:
+
+* Open Emacs
+* Hit =Alt-X=.
+* The focus moves to a 1-line input area in the bottom.
+* Type =dired-jump= there.
+* Hit =Enter=.
+
+This will show the content of the current directory.\\
+Close it with:
+
+* Hit =Alt-X=.
+* type =quit-window=.
+* Hit =Enter=.
+
+If you find yourself stuck, =Ctrl-G= is your friend.
+
+Everything in Emacs is a command: saving files, committing to Git, and
+even typing a single character.\\
+=Alt-X= is your passe-partout shortcut.
+
+** From now on
+Here's a minimal set of commands to get started:
+
+| Command                      | Purpose                              |
+|------------------------------+--------------------------------------|
+| =find-file=                  | Open a file or a directory           |
+| =save-buffer=                | Save the displayed content to a file |
+| =save-buffers-kill-terminal= | Quit Emacs                           |
+
+For the rest, just use:
+
+- Arrow keys, Page Up, Page Down, Start and End to move.
+- =Canc= and =Del= to delete.
+
+Some keys won't work as you think (e.g., =Ctrl-C=, =Ctrl-V=, =Ctrl-A=,
+=Ctrl-S=). You'll soon get to them. Just don't use them just yet.
+
+Remember, if stuck, =Ctrl-G=.
+
+** Emacs Lingo
+Get familiar with the Emacs parlance. We will use it from now on:
+
+| Original form     | In Emacs lingo  | Notes                                             |
+|-------------------+-----------------+---------------------------------------------------|
+| =Alt-X=           | =M-x=           | Pronounced *Meta X*                               |
+| =Ctrl-G=          | =C-g=           |                                                   |
+| Displayed content | Buffer          | Any content, even if not displayed, is "a buffer" |
+| To open a file    | To visit a file |                                                   |
+

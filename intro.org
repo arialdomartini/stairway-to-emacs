@@ -2,12 +2,27 @@
 
 This book:
 
-| Aims to be...      | Because...                                     |
-|--------------------+------------------------------------------------|
-| Practical          | Less talk, more action                         |
-| Essential          | Your time is precious.                         |
-| Incremental        | You should be able to use Emacs from the day-0 |
-| Modern             | It's the 21st century                          |
-| Hand made, AI free | I respect your intelligence                    |
+| Aims to be...      | Because...                           |
+|--------------------+--------------------------------------|
+| Essential          | Your time is precious.               |
+| Practical          | Less talk, more action               |
+| Incremental        | You want to use Emacs from the day-0 |
+| Modern             | It's the 21st century                |
+| Hand made, AI free | I respect your intelligence          |
+
+Each chapter:
+
+- Is short enough to fit a single rock song.
+- Is, in most cases, independent from the others.
 
 
+** Why?
+I'm convinced that there are only 2 hard things in Emacs:
+
+1. Getting started. There is an embarassingly steep initial step, and
+   not enough noob-proof ways to overtake it.
+2. Getting finished: Emacs is a programmable environment, not an
+  editor, and there are literally no limits to it. 
+
+This book aims to help with 1 only --- and hopefully to let you
+fall ethernally in the 2nd trap.
