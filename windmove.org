@@ -34,22 +34,24 @@ Add this to your =init.el=:
 #+end_src
 
 Save the file (=C-x C-s=) and evaluate its content with =M-x
-eval-buffer=.\\
-Quick notes:
+eval-buffer=.
 
-| Code          | Meaning                                         |
-|---------------+-------------------------------------------------|
-| =:ensure nil= | =windmove= is built-in: no need to download it. |
-| =:bind=       | This section defines some key bindings          |
-| ="S-<up>"=    | When =Shift + arrow up= is pressed...           |
-| =windmove-up= | ... invoke =windmove-up=.                       |
+Here are some notes:
+
+| Code          | Meaning                                                |
+|---------------+--------------------------------------------------------|
+| =:ensure nil= | =windmove= is built-in: no need to download it.        |
+| =:bind=       | =:bind= opens a section with key bindings definitions  |
+| ="S-<up>"=    | When =Shift + arrow up= is pressed...                  |
+| =windmove-up= | ... invoke =windmove-up=.                              |
 
 When you have multiple pages displayed in Emacs, =windmove-up=,
 =windmove-down= etc will move the focus in that direction.\\
 Oh, yes: pages are called *windows* in Emacs lingo.
 
 Hey! Wait a sec! Isn't =Shift + arrow keys= reserved for selecting
-text? It's not! There are way smarter ways! You'll get to them. After
-all, you don't know yet how to copy/paste.
+text? It's not! There are way smarter ways to select text! You'll get
+to them. But be patient: after all, you don't even know yet how to
+copy/paste yet.
 
 Move on up! You'll soon learn it all!
