@@ -6,7 +6,7 @@ This book:
 | Essential          | Your time is precious.                                         |
 | Practical          | Less talk, more action.                                        |
 | Incremental        | You want to use Emacs from the day-0.                          |
-| Possibly modern    | It's the 21st century.                                         |
+| Possibly modern    | Emacs is an editor for the 21st century.                       |
 | Alternative        | Learning tables of shortcuts only for moving around is boring. |
 | Hand made, AI free | I respect your intelligence.                                   |
 | GPL and Free       | I am merely giving back what I was given.                      |
