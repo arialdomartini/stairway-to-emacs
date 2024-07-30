@@ -52,6 +52,6 @@ Oh, yes: pages are called *windows* in Emacs lingo.
 Hey! Wait a sec! Isn't =Shift + arrow keys= reserved for selecting
 text? It's not! There are way smarter ways to select text! You'll get
 to them. But be patient: after all, you don't even know yet how to
-copy/paste yet.
+copy/paste.
 
 Move on up! You'll soon learn it all!
