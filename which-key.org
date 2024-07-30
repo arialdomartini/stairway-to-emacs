@@ -18,8 +18,8 @@ But don't panic: there is no point trying to remember all of them just
 yet. Instead, let Emacs remember them for you.
 
 Try =which-key=, a package that suggests key bindings while you type
-them. You already know how to edit the Emacs's =init.el= file. Try
-editing it with Emacs itself:
+them. You already know how to locate and edit the Emacs's =init.el=
+file. This time, try editing it with Emacs itself:
 
 | Do                              | Comment                                          |
 |---------------------------------+--------------------------------------------------|
@@ -42,7 +42,7 @@ editing it with Emacs itself:
   (which-key-mode))
 #+end_src
 
-Nothing new here.//
+Nothing new here. You have just instelled another package.
 
 Update Emacs re-evaluating the file (=M-x eval-buffer=). Now, if you
 begin typing a key binding, say hitting =C-x=, after a bit Emacs,
@@ -51,7 +51,8 @@ dynamically generated, this will work with any present and future
 keybindings.
 
 If you want to close the cheat-sheet before completing the key
-binding, you know what to do: use the global =C-g= abort key binding.
+binding, you know what to do: use the global =C-g= to abort the key
+binding.
 
 As it happens with most of the Emacs' packages, [[which-key][which-key]] can be
 configured in each aspects. Its thorough documentation is worth to be
