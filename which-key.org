@@ -37,12 +37,12 @@ editing it with Emacs itself:
   (vertico-mode))
 
 (use-package which-key
+  :ensure t
   :config
   (which-key-mode))
 #+end_src
 
-Nothing new here besides the lack of =:ensure t=: indeed, =which-key=
-is built-in in Emacs so it needn't be downloaded.
+Nothing new here.//
 
 Update Emacs re-evaluating the file (=M-x eval-buffer=). Now, if you
 begin typing a key binding, say hitting =C-x=, after a bit Emacs,
