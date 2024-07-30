@@ -11,9 +11,9 @@ This book:
 | Hand made, AI free | I respect your intelligence.                                   |
 | GPL and Free       | I am merely giving back what I was given.                      |
 
-This book will not teach you everything on Emacs: it's a short
-tutorial whose goal is to help you gain authonomy on exploring and
-learning Emacs with your own strengths.
+This book will not teach you everything on Emacs: it's a tutorial, a
+primer whose goal is to help you gain authonomy on learning Emacs with
+your own strengths.
 
 Each chapter:
 
