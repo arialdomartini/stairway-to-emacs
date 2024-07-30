@@ -75,9 +75,16 @@ Good to know. Eventually, you might prefer using a shortcut instead of
 the whole command. (Hey! Be aware that =C-x f= and =C-x C-f= are 2
 distinct key bindings!)
 
-[[vertico][vertico.el]] does much more than this. Eventually, you will like to find
-out all the functionalities of a package reading its documentation,
-when you install one. But take your time. You just started the journey
-and Emacs is going to accompany you forever.
+Notice the last line of your =init.el= file and remember that =(f a
+b)= is the equivalent of other languages' =f(a, b)=: so,
+=(vertico-mode)= means you are invoking the function =vertico-mode=.
+Try running it directly with =M-x=: it will enable and disable
+=vertico.el=.
+
+[[vertico][vertico.el]] does much more than what you just saw.\\
+Eventually, as you install a package, you will like to find out all of
+its functionalities reading its documentation, . But take your time:
+you just started the journey and Emacs is going to accompany you
+forever.
 
 #+TARGET: vertico https://github.com/minad/vertico
