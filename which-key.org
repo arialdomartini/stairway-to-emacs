@@ -55,7 +55,7 @@ binding, you know what to do: use the global =C-g= to abort the key
 binding.
 
 As it happens with most of the Emacs' packages, [[which-key][which-key]] can be
-configured in each aspects. Its thorough documentation is worth to be
+configured in every aspect. Its thorough documentation is worth to be
 read. But you have no need to rush: the girl with kaleidoscope eyes is
 infinitely understanding and patient. Take your time and enjoy the ride.
 
