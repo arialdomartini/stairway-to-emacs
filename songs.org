@@ -9,7 +9,6 @@
 | Smells Like Term Spirit            | Nirvana           |                          |
 | Highway to Shell                   | AC/DC             |                          |
 | God hist-save the Queen            |                   |                          |
-| Consult in Central Park            | Simon & Garfunkel | consult                  |
 |                                    |                   |                          |
 
 | Song                          | Band        |

@@ -4,3 +4,7 @@
 - [[file:which-key.org][Day 3 - which-key In The Sky With Diamonds]]
 - [[file:windmove.org][Day 4 - windmove on up!]]
 - [[file:jump.org][Day 5 - Might as well jump (jump!): consult.el]]
+- Day 6 - UI improvements
+- Day 7 - Learn to read documentation from Emacs itself
+- Day 8 - It's a kind of magit!
+- Day 9 - Highway to Shell
