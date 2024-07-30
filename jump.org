@@ -1,0 +1,58 @@
+* Might as well jump (jump!)
+
+Moving from visible pages / windows is OK. But as you visit a new
+file, the previos one disappears. How to jump back to it?
+
+You can do this with the stock Emacs, but doing it with [[conult][=consult.el=]]
+is way nicer. Install it adding this to your =init.el=:
+
+#+begin_src elisp
+(use-package consult
+  :ensure t
+  :bind (("C-x b" . consult-buffer)
+	 ("C-s"   . consult-line)
+	 ("C-S-s" . isearch-forward)))
+#+end_src
+
+As usual, save (=C-x C-s=) and =M-x eval-buffer=.
+
+Here the keybindings you defined:
+
+| Key binding | Shortcut       | Command           | Functionality                                                     |
+|-------------+----------------+-------------------+-------------------------------------------------------------------|
+| =C-x b=     | =Ctrl-X B=     | =consult-buffer=  | List all the open files and buffer. Select one and press =Enter=. |
+| =C-s=       | =Ctrl-S=       | =consult-line=    | Real-time, incremental search a text in a buffer.                 |
+| =C-S-s=     | =Ctrl-Shift-S= | =isearch-forward= | The built-in search.                                              |
+
+
+Try yourself: after you opened multiple files, use =M-x
+consult-buffer= or =(C-x b)= to jump around. When you run
+=consult-buffer=, it shows a list of candidates.
+
+- Use your arrow keys to browse them.
+- A preview is displayed in real-time as you move.
+- Confirm with =Enter=.
+- You can also filter candidates by typing.
+
+Well, filtering must be improved: it's type-sensitive and does not
+search for substrings.
+
+As usual: don't feel too compelled to learn key bindings; you can
+always run commands with =M-x=. Emacs will gently reminds you of any
+existing key binding anyway.
+
+** Closing windows
+This bears the question: how to close a page / window?\\
+Use:
+
+| Command             | Key binding | Functionality                      |
+|---------------------+-------------+------------------------------------|
+| =M-x delete-window= | =C-x 0=     | Hide the currently focused window. |
+
+Hide only? Yes, verify yourself with =consult-buffer=: if you delete a
+page with =C-x 0=, its buffer will be still hanging around and will be
+available to jump back to it. Of course, you can permanently remove
+it. But I won't teach you this just yet! Just don't feel compelled to close files. 
+
+
+#+TARGET: consult https://github.com/minad/consult
