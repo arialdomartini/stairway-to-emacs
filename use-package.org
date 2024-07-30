@@ -70,9 +70,9 @@ Try again typing =M-x find-file=. Cool! Now there is a real-time list
 of matching candidates while you type the command. And a real-time,
 searchable list of files too.
 
-Notice that when you were typing =find-file= the list of candidates
-also suggests key bindings. The one for =find-file= is =C-x C-f=. Good
-to know. Eventually, you might to use a shortcut instead of the whole
+Notice that when you type =find-file= the list of candidates also
+suggests key bindings. The one for =find-file= is =C-x C-f=. Good to
+know. Eventually, you might to use a shortcut instead of the whole
 command. (Hey! Be aware that =C-x f= and =C-x C-f= are 2 distinct key
 bindings!)
 
@@ -84,7 +84,7 @@ Try running it directly with =M-x=: it will enable and disable
 
 [[vertico][vertico.el]] does much more than what you just saw.\\
 Eventually, as you install a package, you will like to find out all of
-its functionalities reading its documentation . But take your time:
+its functionalities reading its documentation. But take your time:
 you just started the journey and Emacs is going to accompany you
 forever.
 
