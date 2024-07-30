@@ -1,6 +1,6 @@
 * Might as well jump (jump!)
 
-Moving from visible pages / windows is OK. But as you visit a new
+Moving around visible pages / windows is OK. But as you visit a new
 file, the previos one disappears. How to jump back to it?
 
 You can do this with the stock Emacs, but doing it with [[conult][=consult.el=]]
@@ -50,9 +50,10 @@ Use:
 | =M-x delete-window= | =C-x 0=     | Hide the currently focused window. |
 
 Hide only? Yes, verify yourself with =consult-buffer=: if you delete a
-page with =C-x 0=, its buffer will be still hanging around and will be
-available to jump back to it. Of course, you can permanently remove
-it. But I won't teach you this just yet! Just don't feel compelled to close files. 
+page with =C-x 0=, its buffer is still hanging around and available to
+jump back to. Of course, you can permanently remove it. But I won't
+teach you this just yet! Just don't feel compelled to close files.
 
+Just keep on jumping...
 
 #+TARGET: consult https://github.com/minad/consult
