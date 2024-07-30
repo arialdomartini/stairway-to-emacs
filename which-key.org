@@ -42,7 +42,7 @@ file. This time, try editing it with Emacs itself:
   (which-key-mode))
 #+end_src
 
-Nothing new here. You have just instelled another package.
+Nothing new here. You have just installed another package.
 
 Update Emacs re-evaluating the file (=M-x eval-buffer=). Now, if you
 begin typing a key binding, say hitting =C-x=, after a bit Emacs,
