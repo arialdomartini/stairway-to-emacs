@@ -1,4 +1,4 @@
-* Jump!
+* windmove on up!
 I bet you don't believe me, but Emacs is very powerful even without
 extensions and plugins. Only, it looks oldish and not very inviting.
 So, keep on modernizing it. In the meanwhile, you will discover its
@@ -6,21 +6,21 @@ functionalities, one after the other.
 
 Your next goals:
 
-- Make Emacs more beautiful looking.
+- Make Emacs beautiful looking.
 - Go with Language Server Protocol for the win!
 - Magit! because you heard it's an application killer.
 
 But first, there is an issue to solve with urgency. Emacs has the
-habit of popping up pages, and you don't even know how to jump from
+habit of popping up pages, and you don't even know how to move from
 one to another. There are no tabs!
 
 My recipe:
 
 - Configure =windmove=.
 - Install =consult.el=.
-- Learn the bare minimum about buffers and Windows.
+- Learn the bare minimum about buffers and windows.
 
-** Jumping from one window to another
+** Moving from one window to another
 Add this to your =init.el=:
 
 #+begin_src elisp
@@ -33,27 +33,23 @@ Add this to your =init.el=:
    ("S-<right>". 'windmove-right)))
 #+end_src
 
+Save the file (=C-x C-s=) and evaluate its content with =M-x
+eval-buffer=.\\
 Quick notes:
 
-| Code          | Meaning                                  |
-|---------------+------------------------------------------|
-| =:ensure nil= | =windmove= is built-in no need to download it. |
-| =:bind=       | This section configures the key bindings |
-| ="S-<up>"=    | When =Shift + arrow up= is pressed...    |
-| =windmove-up= | ... invoke =windmove-up=                 |
+| Code          | Meaning                                         |
+|---------------+-------------------------------------------------|
+| =:ensure nil= | =windmove= is built-in: no need to download it. |
+| =:bind=       | This section defines some key bindings          |
+| ="S-<up>"=    | When =Shift + arrow up= is pressed...           |
+| =windmove-up= | ... invoke =windmove-up=.                       |
 
 When you have multiple pages displayed in Emacs, =windmove-up=,
-=windmove-down= etc will move the focus jumping in that direction.\\
+=windmove-down= etc will move the focus in that direction.\\
 Oh, yes: pages are called *windows* in Emacs lingo.
 
 Hey! Wait a sec! Isn't =Shift + arrow keys= reserved for selecting
 text? It's not! There are way smarter ways! You'll get to them. After
 all, you don't know yet how to copy/paste.
 
-So far, keep on jumping!
-
-
-
-
-  
-
+Move on up! You'll soon learn it all!
