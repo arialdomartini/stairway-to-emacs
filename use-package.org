@@ -46,13 +46,14 @@ Edit this file (feel free to use your preferred editor!) and write:
 #+end_src
 
 
-Given that an expression like =(f a b)= is equivalent to JavaScript's
-=f(a, b)=, here's an explanation of your first =init.el= script:
+Given that an expression like =(f a b)= in Emacs is equivalent to
+JavaScript's =f(a, b)=, here's an explanation of your first =init.el=
+script:
 
 | Expression             | Meaning                                                                                                              |
 |------------------------+----------------------------------------------------------------------------------------------------------------------|
 | =(require 'package)=   | This is equivalent to JS' =require= or Python's / Java's =import=. =package= is the Emacs' built-in package manager. |
-| =(package-initialize)= | Initialize the package-manager.                                                                                      |
+| =(package-initialize)= | Initialize the package manager.                                                                                      |
 | =(use-package vertico= | Load the package =vertico=                                                                                           |
 | =  ensure t=           | downloading it from the internet, if not present.                                                                    |
 | =  config=             | and when it's ready...                                                                                               |
@@ -60,20 +61,20 @@ Given that an expression like =(f a b)= is equivalent to JavaScript's
 
 
 Save the file, close Emacs (=M-x save-buffers-kill-terminal RET=) and
-reopen it. If you felt so brave to edit this file with Emacs, you
-don't need to quit Emacs: just run =M-x eval-buffer= to execute
+reopen it. If you felt so brave to edit this file directly with Emacs,
+you don't need to quit it: just run =M-x eval-buffer= to execute
 =init.el= in place.
 
 ** Try [[vertico][vertico.el]]
-Try again typing =M-x find-file=. Cool, a real-time list of matching
-candidates while you type the command. And a real-time, searchable
-list of files.
+Try again typing =M-x find-file=. Cool! Now there is a real-time list
+of matching candidates while you type the command. And a real-time,
+searchable list of files too.
 
 Notice that when you were typing =find-file= the list of candidates
-also suggests some key bindings. The one for =find-file= is =C-x C-f=.
-Good to know. Eventually, you might prefer using a shortcut instead of
-the whole command. (Hey! Be aware that =C-x f= and =C-x C-f= are 2
-distinct key bindings!)
+also suggests key bindings. The one for =find-file= is =C-x C-f=. Good
+to know. Eventually, you might to use a shortcut instead of the whole
+command. (Hey! Be aware that =C-x f= and =C-x C-f= are 2 distinct key
+bindings!)
 
 Notice the last line of your =init.el= file and remember that =(f a
 b)= is the equivalent of other languages' =f(a, b)=: so,
@@ -83,7 +84,7 @@ Try running it directly with =M-x=: it will enable and disable
 
 [[vertico][vertico.el]] does much more than what you just saw.\\
 Eventually, as you install a package, you will like to find out all of
-its functionalities reading its documentation, . But take your time:
+its functionalities reading its documentation . But take your time:
 you just started the journey and Emacs is going to accompany you
 forever.
 
