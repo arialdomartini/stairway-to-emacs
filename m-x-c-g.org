@@ -18,20 +18,22 @@ Try:
 | Open Emacs              |                                                       |
 | Hit =Alt-X=             | The focus moves to a 1-line input area in the bottom. |
 | Type =dired-jump= there | Like the shell, you can use =TAB= to complete.        |
-| Hit =Return=       |                                                       |
+| Hit =Return=            |                                                       |
 
 This will show the content of the current directory.\\
 Close it with:
 
-* Hit =Alt-X=.
-* type =quit-window=.
-* Hit =Return=.
+| Do                 | Comment                            |
+|--------------------+------------------------------------|
+| Hit =Alt-X=        | Display the command palette again. |
+| Type =quit-window= |                                    |
+| Hit =Return=       |                                    |
 
 If you find yourself stuck, =Ctrl-G= is your friend.
 
-Everything in Emacs is a command: saving files, committing to Git, and
-even typing a single character.\\
-=Alt-X= is your passe-partout shortcut.
+Everything in Emacs is a command: saving files, committing to Git, etc.
+Even typing a single character is a command you can run with =Alt-X=.\\
+Indeed, =Alt-X= is your passe-partout shortcut.
 
 ** From now on
 Here's a minimal set of commands to get started:
@@ -53,7 +55,7 @@ Some keys won't work as you think (e.g., =Ctrl-C=, =Ctrl-V=, =Ctrl-A=,
 Remember, if stuck, =Ctrl-G=.
 
 ** Emacs Lingo
-Get familiar with the Emacs parlance. We will use it from now on:
+Get familiar with the Emacs parlance. I will use it from now on:
 
 | Original form                                     | In Emacs lingo       | Notes                                             |
 |---------------------------------------------------+----------------------+---------------------------------------------------|
