@@ -11,12 +11,16 @@ This book:
 | Hand made, AI free | I respect your intelligence.                                   |
 | GPL and Free       | I am merely giving back what I was given.                      |
 
+This book will not teach you everything on Emacs: its goal is to help
+you gain authonomy on exploring and learning Emacs with your own
+strengths.
+
 Each chapter:
 
 - Is short enough to fit the time of a single rock song.
 - One each day, at a sustanaible pace, gives you both relentless
   progress and the time to do your stuff.
-  
+
 ** Why?
 I'm convinced that there are only 2 hard things in Emacs:
 
