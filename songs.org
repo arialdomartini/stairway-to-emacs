@@ -1,15 +1,15 @@
-| Song                               | Band              | Used for                 |
-|------------------------------------+-------------------+--------------------------|
-| Stairway to Emacs                  | Led Zeppelin      | Main Title               |
-| All The Shortcuts Are Grey         | The Cure          | M-x, C-g                 |
-| Package In A Bottle                | The Police        | use-package + vertico.el |
-| which-key in the Sky with Diamonds | The Beatles       | which-key                |
-| windmove on up!                    | Curtis Mayfield   | windmove                 |
-| Might as well jump (jump!)         | Van Halen         | consult, switch-buffer   |
-| Smells Like Term Spirit            | Nirvana           |                          |
-| Highway to Shell                   | AC/DC             |                          |
-| God hist-save the Queen            |                   |                          |
-|                                    |                   |                          |
+| Song                               | Band            | Used for                 |
+|------------------------------------+-----------------+--------------------------|
+| Stairway to Emacs                  | Led Zeppelin    | Main Title               |
+| All The Shortcuts Are Grey         | The Cure        | M-x, C-g                 |
+| Package In A Bottle                | The Police      | use-package + vertico.el |
+| which-key in the Sky with Diamonds | The Beatles     | which-key                |
+| windmove on up!                    | Curtis Mayfield | windmove                 |
+| Might as well jump (jump!)         | Van Halen       | consult, switch-buffer   |
+| Smells Like Term Spirit            | Nirvana         |                          |
+| Highway to Shell                   | AC/DC           |                          |
+| God savehist the Queen             |                 | Sex pistols              |
+| Help! I need somebody! Help!       | The Beatles     | Reading documentation    |
 
 | Song                          | Band        |
 |-------------------------------+-------------|
