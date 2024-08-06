@@ -11,13 +11,13 @@ As usual, =M-x= is your best friend. Use it to invoke one of the
 =describe-*= commands. Try yourself: type =M-x describe-= and discover
 how many of them there are. The most important are:
 
-| Command             | For example                                                                                  |
-|---------------------+----------------------------------------------------------------------------------------------|
-| `describe-command`  | =M-x describe-command RET blink-cursor-mode RET=                                             |
-| `describe-variable` | =M-x describe-variable RET user-init-file=                                                   |
-| `describe-package`  | =M-x describe-package RET vertico RET=                                                       |
-| `describe-key`      | =M-x describe-key RET <then type C-s>= to find out that =C-s= is not for saving.             |
-| `describe-mode`     | M - x describe - mode RET = to discover all the current available key bindings and features. |
+| Command             | For example                                                                              |
+|---------------------+------------------------------------------------------------------------------------------|
+| =describe-command=  | =M-x describe-command RET blink-cursor-mode RET=                                         |
+| =describe-variable= | =M-x describe-variable RET user-init-file=                                               |
+| =describe-package=  | =M-x describe-package RET vertico RET=                                                   |
+| =describe-key=      | =M-x describe-key RET <then type C-s>= to find out that =C-s= is not for saving.         |
+| =describe-mode=     | =M-x describe-mode RET= to discover all the current available key bindings and features. |
 
 
 Notice from the candidate list the key bindings: they all start with
@@ -25,11 +25,11 @@ Notice from the candidate list the key bindings: they all start with
 
 | Command             | Key binding |
 |---------------------+-------------|
-| `describe-command`  | =C-h x=     |
-| `describe-variable` | =C-h v=     |
-| `describe-package`  | =C-h P=     |
-| `describe-key`      | =C-h k=     |
-| `describe-mode`     | =C-h m=     |
+| =describe-command=  | =C-h x=     |
+| =describe-variable= | =C-h v=     |
+| =describe-package=  | =C-h P=     |
+| =describe-key=      | =C-h k=     |
+| =describe-mode=     | =C-h m=     |
 
 Documentation is always displayed in a separate window. You know how
 to focus it (Shift + arrow keys) and how to close it (=C-x 0=, but you
