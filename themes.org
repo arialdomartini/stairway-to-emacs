@@ -1,0 +1,51 @@
+The stock Emacs UI leaves to desire. Let's improve it. Here are some
+options you might use, adding them to your =init.el=:
+
+#+begin_src elisp
+;; Be brave, don't use the mouse. You need neither the toolbar
+;; nor the menu bar
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
+;; You will scroll with the keyboard anyway
+(scroll-bar-mode -1)
+(horizontal-scroll-bar-mode -1)
+
+;; The initial splash screen is so oldish...
+;; Eventually, you will replace it with a fancy dashboard
+(setq inhibit-splash-screen t)
+
+;; -1 for non-blinking cursor; t for blinking
+(blink-cursor-mode -1)
+
+;; hl-line highlights the current line
+(use-package hl-line
+  :ensure t               ;it's built-in
+  :config
+  (global-hl-line-mode)   ;this enables it everywhere 
+   ;; For smooth scrolling
+  (pixel-scroll-precision-mode)
+
+;; ef-themes is a package containing nice Emacs themes by Prot
+(use-package ef-themes
+  :config
+  (load-theme 'ef-elea-dark :no-confirm))
+
+;; Set the main font
+(set-frame-font "Monoid 18" nil t)  ; choose your poison
+#+end_src
+
+Notice how some configurations either:
+
+- Set a variable using the =(setq variable-name value)= syntax.
+- Run a command, like =(scroll-bar-mode -1)= using the syntax
+  =(function-name arg1 arg2 ...)=.
+- Rely on =use-package= to install extra packages.
+
+  
+Save the file (=C-x C-s=) and evaluate it (=M-x eval-buffer RET=).
+
+A bit better, right?
+
+Browse other themes with =M-x consult-theme RET=: it provides a
+real-time preview.
