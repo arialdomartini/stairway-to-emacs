@@ -1,0 +1,53 @@
+There is a famous article titled [[https://emacsen.org/2009/07/learn-emacs-in-ten-years][Learn Emacs In Ten Years]]. Its main
+takeaway is that Emacs will accompany you for decades and you will
+never cease learning from it.
+
+This does not mean that learning Emacs is a Herculean task. On the
+contrary: not only is Emacs simpler than you think, it is also
+self-documenting. Indeed, this book is only a primer. For every
+functionality you want to learn, ask Emacs itself for help.
+
+As usual, *M-x* is your best friend. Use it to invoke one of the
+=describe-*= commands. Try yourself: type =M-x describe-= and discover
+how many of them there are. The most important are:
+
+| Command             | For example                                                                                  |
+|---------------------+----------------------------------------------------------------------------------------------|
+| `describe-command`  | =M-x describe-command RET blink-cursor-mode RET=                                             |
+| `describe-variable` | =M-x describe-variable RET user-init-file=                                                   |
+| `describe-package`  | =M-x describe-package RET vertico RET=                                                       |
+| `describe-key`      | =M-x describe-key RET <then type C-s>= to find out that =C-s= is not for saving.             |
+| `describe-mode`     | M - x describe - mode RET = to discover all the current available key bindings and features. |
+
+
+Notice from the candidate list the key bindings: they all start with
+=C-h=, which stands for /help/.
+
+| Command             | Key binding |
+|---------------------+-------------|
+| `describe-command`  | =C-h x=     |
+| `describe-variable` | =C-h v=     |
+| `describe-package`  | =C-h P=     |
+| `describe-key`      | =C-h k=     |
+| `describe-mode`     | =C-h m=     |
+
+Documentation is always displayed in a separate window. You know how
+to focus it (Shift + arrow keys) and how to close it (=C-x 0=, but you
+can also just type =q= to quit).
+
+Notice that if you run =M-x describe-variable RET= while your cursor
+is on a variable, it will suggest that variable as the first
+candidate. Same for commands. This is one of the several incarnations
+of the famous Do What I Mean (DWIM) approach of Emacs: Emacs often
+tries to read your mind.
+
+Also notice that those doc pages are interactive. =describe-package=
+offers a button to uninstall the package.
+
+And, finally, notice that this is dynamically generated documentation:
+=describe-command= lists the key bindings associated to a command. If
+you modify or add one, the documentation will be automatically
+updated. Neat.
+
+Good read.
+
