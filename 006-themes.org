@@ -20,7 +20,7 @@ options you might use, adding them to your =init.el=:
 
 ;; hl-line highlights the current line
 (use-package hl-line
-  :ensure t               ;it's built-in
+  :ensure nil             ;it's built-in
   :config
   (global-hl-line-mode)   ;this enables it everywhere 
    ;; For smooth scrolling
