@@ -31,6 +31,8 @@ Notice from the candidate list the key bindings: they all start with
 | =describe-key=      | =C-h k=     |
 | =describe-mode=     | =C-h m=     |
 
+Do I need to repeat? Don't feel compelled to learn them.
+
 Documentation is always displayed in a separate window. You know how
 to focus it (Shift + arrow keys) and how to close it (=C-x 0=, but you
 can also just type =q= to quit).
