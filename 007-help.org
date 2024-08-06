@@ -7,7 +7,7 @@ contrary: not only is Emacs simpler than you think, it is also
 self-documenting. Indeed, this book is only a primer. For every
 functionality you want to learn, ask Emacs itself for help.
 
-As usual, *M-x* is your best friend. Use it to invoke one of the
+As usual, =M-x= is your best friend. Use it to invoke one of the
 =describe-*= commands. Try yourself: type =M-x describe-= and discover
 how many of them there are. The most important are:
 
