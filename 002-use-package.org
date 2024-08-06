@@ -65,6 +65,10 @@ reopen it. If you felt so brave to edit this file directly with Emacs,
 you don't need to quit it: just run =M-x eval-buffer= to execute
 =init.el= in place.
 
+(I intentionnally said *execute*: indeed, =init.el= is not a
+/configuration file/, but the source code of a program you write,
+which is compiled to native code and run.)
+
 ** Try [[vertico][vertico.el]]
 Try again typing =M-x find-file=. Cool! Now there is a real-time list
 of matching candidates while you type the command. And a real-time,
