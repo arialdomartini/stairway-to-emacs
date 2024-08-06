@@ -1,3 +1,5 @@
+* Sweet Themes (Are Made of This)]]
+
 The stock Emacs UI leaves to desire. Let's improve it. Here are some
 options you might use, adding them to your =init.el=:
 

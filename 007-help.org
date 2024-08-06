@@ -1,3 +1,5 @@
+* Help! I need somebody, help!
+
 There is a famous article titled [[https://emacsen.org/2009/07/learn-emacs-in-ten-years][Learn Emacs In Ten Years]]. Its main
 takeaway is that Emacs will accompany you for decades and you will
 never cease learning from it.
