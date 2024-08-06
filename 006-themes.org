@@ -22,9 +22,10 @@ options you might use, adding them to your =init.el=:
 (use-package hl-line
   :ensure nil             ; it's built-in
   :config
-  (global-hl-line-mode)   ; this enables it everywhere 
-   ;; For smooth scrolling
-  (pixel-scroll-precision-mode)
+  (global-hl-line-mode)   ; this enables it everywhere
+
+;; For smooth scrolling
+(pixel-scroll-precision-mode)
 
 ;; ef-themes is a package containing nice Emacs themes by Prot
 (use-package ef-themes
