@@ -50,7 +50,8 @@ For the rest, just use:
 - =Canc= and =Del= to delete.
 
 Some keys won't work as you think (e.g., =Ctrl-C=, =Ctrl-V=, =Ctrl-A=,
-=Ctrl-S=). You'll soon get to them. Just don't use them just yet.
+=Ctrl-S=, =Ctrl-Z=). You'll soon get to them. Just don't use them just
+yet.
 
 Remember, if stuck, =Ctrl-G=.
 

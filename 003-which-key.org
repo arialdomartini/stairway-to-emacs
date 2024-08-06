@@ -54,9 +54,17 @@ If you want to close the cheat-sheet before completing the key
 binding, you know what to do: use the global =C-g= to abort the key
 binding.
 
+=which-key= is useful if you remember part of a key binding. What if
+you don't? You can always use =M-x= and type the command: Emacs will
+give you the associated keybinding. For example, you probably already
+found out that =Ctrl-Z= is not undo. Depressing. Type =M-x undo= and
+discover that the right keybinding is =C-x u= (but you can also type
+=C-/=, which is easier).
+
 As it happens with most of the Emacs' packages, [[which-key][which-key]] can be
 configured in every aspect. Its thorough documentation is worth to be
 read. But you have no need to rush: the girl with kaleidoscope eyes is
 infinitely understanding and patient. Take your time and enjoy the ride.
+
 
 #+TARGET: which-key https://github.com/justbur/emacs-which-key

@@ -15,7 +15,7 @@ how many of them there are. The most important are:
 
 | Command             | For example                                                                              |
 |---------------------+------------------------------------------------------------------------------------------|
-| =describe-command=  | =M-x describe-command RET blink-cursor-mode RET=                                         |
+| =describe-command=  | =M-x describe-command RET undo RET= to find out that you can undo with =C-/=             |
 | =describe-variable= | =M-x describe-variable RET user-init-file=                                               |
 | =describe-package=  | =M-x describe-package RET vertico RET=                                                   |
 | =describe-key=      | =M-x describe-key RET <then type C-s>= to find out that =C-s= is not for saving.         |
