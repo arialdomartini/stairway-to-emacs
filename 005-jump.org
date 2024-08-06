@@ -18,16 +18,16 @@ As usual, save (=C-x C-s=) and =M-x eval-buffer=.
 
 Here the keybindings you defined:
 
-| Key binding | Shortcut       | Command           | Functionality                                                     |
-|-------------+----------------+-------------------+-------------------------------------------------------------------|
-| =C-x b=     | =Ctrl-X B=     | =consult-buffer=  | List all the open files and buffer. Select one and press =Enter=. |
-| =C-s=       | =Ctrl-S=       | =consult-line=    | Real-time, incremental search a text in a buffer.                 |
-| =C-S-s=     | =Ctrl-Shift-S= | =isearch-forward= | The built-in search.                                              |
+| Key binding | Shortcut       | Command           | Functionality                                                      |
+|-------------+----------------+-------------------+--------------------------------------------------------------------|
+| =C-x b=     | =Ctrl-X B=     | =consult-buffer=  | List all the open files and buffers. Select one and press =Enter=. |
+| =C-s=       | =Ctrl-S=       | =consult-line=    | Real-time, incremental search a text in a buffer.                  |
+| =C-S-s=     | =Ctrl-Shift-S= | =isearch-forward= | The built-in search.                                               |
 
 
-Try yourself: after you opened multiple files, use =M-x
-consult-buffer= or =(C-x b)= to jump around. When you run
-=consult-buffer=, it shows a list of candidates.
+Try yourself: after you opened multiple files, use =M-x consult-buffer=
+or =(C-x b)= to jump around. When you run =consult-buffer=, it shows a
+list of candidates.
 
 - Use your arrow keys to browse them.
 - A preview is displayed in real-time as you move.
@@ -38,7 +38,7 @@ Well, filtering must be improved: it's type-sensitive and does not
 search for substrings.
 
 As usual: don't feel too compelled to learn key bindings; you can
-always run commands with =M-x=. Emacs will gently reminds you of any
+always run commands with =M-x=. Emacs will gently remind you of any
 existing key binding anyway.
 
 ** Closing windows
@@ -54,6 +54,6 @@ page with =C-x 0=, its buffer is still hanging around and available to
 jump back to. Of course, you can permanently remove it. But I won't
 teach you this just yet! Just don't feel compelled to close files.
 
-Just keep on jumping...
+Instead, keep on jumping...
 
 #+TARGET: consult https://github.com/minad/consult
