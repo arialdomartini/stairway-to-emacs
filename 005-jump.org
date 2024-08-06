@@ -1,7 +1,7 @@
 * Might as well jump (jump!)
 
 Moving around visible pages / windows is OK. But as you visit a new
-file, the previos one disappears. How to jump back to it?
+file, the previous one disappears. How to jump back to it?
 
 You can do this with the stock Emacs, but doing it with [[conult][=consult.el=]]
 is way nicer. Install it adding this to your =init.el=:
