@@ -1,10 +1,10 @@
-- [[file:intro.org][Day 0 - Stairway to Emacs]]
-- [[file:m-x-c-g.org][Day 1 - All The Shortcuts Are Grey: M-x and C-g]]
-- [[file:use-package.org][Day 2 - Package In A Bottle: use-package and vertico.el]]
-- [[file:which-key.org][Day 3 - which-key In The Sky With Diamonds]]
-- [[file:windmove.org][Day 4 - windmove on up!]]
-- [[file:jump.org][Day 5 - Might as well jump (jump!): consult.el]]
-- [[file:themes.org][Day 6 - Sweet Themes (Are Made of This)]]
+- [[file:000-intro.org][Day 0 - Stairway to Emacs]]
+- [[file:001-m-x-c-g.org][Day 1 - All The Shortcuts Are Grey: M-x and C-g]]
+- [[file:002-use-package.org][Day 2 - Package In A Bottle: use-package and vertico.el]]
+- [[file:003-which-key.org][Day 3 - which-key In The Sky With Diamonds]]
+- [[file:004-windmove.org][Day 4 - windmove on up!]]
+- [[file:005-jump.org][Day 5 - Might as well jump (jump!): consult.el]]
+- [[file:006-themes.org][Day 6 - Sweet Themes (Are Made of This)]]
 - Day 7 - Help! I need somebody, help!
 - Day 8 - It's a kind of magit!
 - Day 9 - Highway to Shell
