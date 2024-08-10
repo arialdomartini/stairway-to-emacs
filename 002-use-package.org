@@ -55,9 +55,9 @@ script:
 | =(require 'package)=   | This is equivalent to JS' =require= or Python's / Java's =import=. =package= is the Emacs' built-in package manager. |
 | =(package-initialize)= | Initialize the package manager.                                                                                      |
 | =(use-package vertico= | Load the package =vertico=                                                                                           |
-| =  ensure t=           | downloading it from the internet, if not present.                                                                    |
-| =  config=             | and when it's ready...                                                                                               |
-| =  (vertico-mode))=    | activate it!                                                                                                         |
+| =ensure t=           | downloading it from the internet, if not present.                                                                    |
+| =config=             | and when it's ready...                                                                                               |
+| =(vertico-mode))=    | activate it!                                                                                                         |
 
 
 Save the file, close Emacs (=M-x save-buffers-kill-terminal RET=) and
