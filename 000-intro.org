@@ -41,5 +41,5 @@ fall in the trap of the 2nd, eternally.
   challenge yourself getting your hands dirty.
 
 
-#+TARGET: doom https://github.com/doomemacs/
-#+TARGET: spacemacs https://www.spacemacs.org/
+#+LINK: doom https://github.com/doomemacs/
+#+LINK: spacemacs https://www.spacemacs.org/
