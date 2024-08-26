@@ -92,4 +92,4 @@ its functionalities reading its documentation. But take your time:
 you just started the journey and Emacs is going to accompany you
 forever.
 
-#+TARGET: vertico https://github.com/minad/vertico
+#+LINK: vertico https://github.com/minad/vertico

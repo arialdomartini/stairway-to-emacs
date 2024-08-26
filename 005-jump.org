@@ -56,4 +56,4 @@ teach you this just yet! Just don't feel compelled to close files.
 
 Instead, keep on jumping...
 
-#+TARGET: consult https://github.com/minad/consult
+#+LINK: consult https://github.com/minad/consult

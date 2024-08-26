@@ -67,4 +67,4 @@ read. But you have no need to rush: the girl with kaleidoscope eyes is
 infinitely understanding and patient. Take your time and enjoy the ride.
 
 
-#+TARGET: which-key https://github.com/justbur/emacs-which-key
+#+LINK: which-key https://github.com/justbur/emacs-which-key
