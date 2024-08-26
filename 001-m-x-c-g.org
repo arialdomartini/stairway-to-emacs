@@ -9,7 +9,7 @@ to know by heart:
 | =Alt-X=  | Run any command           |
 | =Ctrl-G= | Cancel what you are doing |
 
-=M-x= is equivalent to VS Code's =Ctrl+Shift+P=: it opens a command
+=Alt-X= is equivalent to VS Code's =Ctrl+Shift+P=: it opens a command
 palette from which to run any of the available commands.\\
 Try:
 
