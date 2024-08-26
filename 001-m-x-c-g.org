@@ -47,7 +47,7 @@ Here's a minimal set of commands to get started:
 For the rest, just use:
 
 - Arrow keys, Page Up, Page Down, Start and End to move.
-- =Canc= and =Del= to delete.
+- =Backspace= and =Del= to delete.
 
 Some keys won't work as you think (e.g., =Ctrl-C=, =Ctrl-V=, =Ctrl-A=,
 =Ctrl-S=, =Ctrl-Z=). You'll soon get to them. Just don't use them just
