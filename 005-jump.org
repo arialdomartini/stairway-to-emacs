@@ -20,9 +20,9 @@ Here the keybindings you defined:
 
 | Key binding | Shortcut       | Command           | Functionality                                                      |
 |-------------+----------------+-------------------+--------------------------------------------------------------------|
-| =C-x b=     | =Ctrl-X B=     | =consult-buffer=  | List all the open files and buffers. Select one and press =Enter=. |
-| =C-s=       | =Ctrl-S=       | =consult-line=    | Real-time, incremental search a text in a buffer.                  |
-| =C-S-s=     | =Ctrl-Shift-S= | =isearch-forward= | The built-in search.                                               |
+| =C-x b=     | =Ctrl-X b=     | =consult-buffer=  | List all the open files and buffers. Select one and press =Enter=. |
+| =C-s=       | =Ctrl-s=       | =consult-line=    | Real-time, incremental search a text in a buffer.                  |
+| =C-S-s=     | =Ctrl-Shift-s= | =isearch-forward= | The built-in search.                                               |
 
 
 Try yourself: after you opened multiple files, use =M-x consult-buffer=
