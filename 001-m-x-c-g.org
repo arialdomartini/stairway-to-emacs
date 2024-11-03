@@ -6,17 +6,17 @@ to know by heart:
 
 | Shortcut | Purpose                   |
 |----------+---------------------------|
-| =Alt-X=  | Run any command           |
-| =Ctrl-G= | Cancel what you are doing |
+| =Alt-x=  | Run any command           |
+| =Ctrl-g= | Cancel what you are doing |
 
-=Alt-X= is equivalent to VS Code's =Ctrl+Shift+P=: it opens a command
+=Alt-x= is equivalent to VS Code's =Ctrl+Shift+p=: it opens a command
 palette from which to run any of the available commands.\\
 Try:
 
 | Do                      | Comment                                               |
 |-------------------------+-------------------------------------------------------|
 | Open Emacs              |                                                       |
-| Hit =Alt-X=             | The focus moves to a 1-line input area in the bottom. |
+| Hit =Alt-x=             | The focus moves to a 1-line input area in the bottom. |
 | Type =dired-jump= there | Like the shell, you can use =TAB= to complete.        |
 | Hit =Return=            |                                                       |
 
@@ -25,15 +25,15 @@ Close it with:
 
 | Do                 | Comment                            |
 |--------------------+------------------------------------|
-| Hit =Alt-X=        | Display the command palette again. |
+| Hit =Alt-x=        | Display the command palette again. |
 | Type =quit-window= |                                    |
 | Hit =Return=       |                                    |
 
-If you find yourself stuck, =Ctrl-G= is your friend.
+If you find yourself stuck, =Ctrl-g= is your friend.
 
 Everything in Emacs is a command: saving files, committing to Git, etc.
-Even typing a single character is a command you can run with =Alt-X=.\\
-Indeed, =Alt-X= is your passe-partout shortcut.
+Even typing a single character is a command you can run with =Alt-x=.\\
+Indeed, =Alt-x= is your passe-partout shortcut.
 
 ** From now on
 Here's a minimal set of commands to get started:
@@ -49,21 +49,20 @@ For the rest, just use:
 - Arrow keys, Page Up, Page Down, Start and End to move.
 - =Backspace= and =Del= to delete.
 
-Some keys won't work as you think (e.g., =Ctrl-C=, =Ctrl-V=, =Ctrl-A=,
-=Ctrl-S=, =Ctrl-Z=). You'll soon get to them. Just don't use them just
+Some keys won't work as you think (e.g., =Ctrl-c=, =Ctrl-v=, =Ctrl-a=,
+=Ctrl-s=, =Ctrl-z=). You'll soon get to them. Just don't use them just
 yet.
 
-Remember, if stuck, =Ctrl-G=.
+Remember, if stuck, =Ctrl-g=.
 
 ** Emacs Lingo
 Get familiar with the Emacs parlance. I will use it from now on:
 
 | Original form                                     | In Emacs lingo       | Notes                                             |
 |---------------------------------------------------+----------------------+---------------------------------------------------|
-| =Alt-X=                                           | =M-x=                | Pronounced *Meta X*                               |
-| =Ctrl-G=                                          | =C-g=                |                                                   |
-| Hit =Alt-X=, type =dired-jump=, then hit =Return= | =M-x dired-jump RET= |                                                   |
+| =Alt-x=                                           | =M-x=                | Pronounced *Meta X*                               |
+| =Ctrl-g=                                          | =C-g=                |                                                   |
+| Hit =Alt-x=, type =dired-jump=, then hit =Return= | =M-x dired-jump RET= |                                                   |
 | Shortcut                                          | Key Binding          |                                                   |
 | Displayed content                                 | Buffer               | Any content, even if not displayed, is "a buffer" |
 | To open a file                                    | To visit a file      |                                                   |
-

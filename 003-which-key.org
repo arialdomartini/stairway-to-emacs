@@ -57,7 +57,7 @@ binding.
 =which-key= is useful if you remember part of a key binding. What if
 you don't? You can always use =M-x= and type the command: Emacs will
 give you the associated keybinding. For example, you probably already
-found out that =Ctrl-Z= is not undo. Depressing. Type =M-x undo= and
+found out that =Ctrl-z= is not undo. Depressing. Type =M-x undo= and
 discover that the right keybinding is =C-x u= (but you can also type
 =C-/=, which is easier).
 
