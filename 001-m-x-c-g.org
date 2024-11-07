@@ -73,4 +73,5 @@ Get familiar with the Emacs parlance. I will use it from now on:
 | Hit =Alt-x=, type =dired-jump=, then hit =Return= | =M-x dired-jump RET= |                                                   |
 | Shortcut                                          | Key Binding          |                                                   |
 | Displayed content                                 | Buffer               | Any content, even if not displayed, is "a buffer" |
+| Command palette                                   | Minibuffer           |                                                   |
 | To open a file                                    | To visit a file      |                                                   |

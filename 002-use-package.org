@@ -4,7 +4,10 @@ Using Emacs like this is a miserable experience: not very
 ergonomic.
 
 Improve it installing [[vertico][vertico.el]], a package that makes finding files
-and running commands more convenient.
+and running commands more convenient. Your minibuffer will look like this:
+
+[[file:img/002/vertico.png]]
+
 
 You need to open the Emacs configuration file. To know where it is,
 ask Emacs directly. Emacs is the runtime of an interactive programming
