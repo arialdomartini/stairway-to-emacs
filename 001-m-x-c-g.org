@@ -55,6 +55,14 @@ yet.
 
 Remember, if stuck, =Ctrl-g=.
 
+** Completion
+Like with the shell, use =TAB= to complete commands. Hit =TAB= twice
+to display a list of candidates.
+
+[[file:img/001/completion-with-tab.png]]
+
+Shortly, you will make this command palette way more powerful.
+
 ** Emacs Lingo
 Get familiar with the Emacs parlance. I will use it from now on:
 
