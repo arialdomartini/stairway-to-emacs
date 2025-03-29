@@ -39,11 +39,11 @@ Indeed, =Alt-x= is your passe-partout shortcut.
 ** From now on
 Here's a minimal set of commands to get started:
 
-| Command                      | Purpose                              |
-|------------------------------+--------------------------------------|
-| =find-file=                  | Open a file or a directory           |
-| =save-buffer=                | Save the displayed content to a file |
-| =save-buffers-kill-terminal= | Quit Emacs                           |
+| Command                      | Purpose                                                                |
+|------------------------------+------------------------------------------------------------------------|
+| =find-file=                  | Open an existing file or create a new one. Also works with directories |
+| =save-buffer=                | Save the displayed content to a file                                   |
+| =save-buffers-kill-terminal= | Quit Emacs                                                             |
 
 For the rest, just use:
 
