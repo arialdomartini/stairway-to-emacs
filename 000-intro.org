@@ -1,19 +1,19 @@
 * Intro
 This book:
 
-| Aims to be...      | Because...                                                     |
-|--------------------+----------------------------------------------------------------|
-| Essential          | Your time is precious.                                         |
-| Practical          | Less talk, more action.                                        |
-| Incremental        | You want to use Emacs from the day-0.                          |
-| Possibly modern    | Emacs is an editor for the 21st century.                       |
-| Alternative        | Learning tables of shortcuts only for moving around is boring. |
-| Hand made, AI free | I respect your intelligence.                                   |
-| GPL and Free       | I am merely giving back what I was given.                      |
+| Aims to be...      | Because...                                |
+|--------------------+-------------------------------------------|
+| Essential          | Your time is precious.                    |
+| Practical          | Less talk, more action.                   |
+| Incremental        | You want to use Emacs from the day-0.     |
+| Possibly modern    | Emacs is an editor for the 21st century.  |
+| Alternative        | Learning tables of shortcuts is boring.   |
+| Hand made, AI free | I respect your intelligence.              |
+| GPL and Free       | I am merely giving back what I was given. |
 
-This book will not teach you everything on Emacs: it's a tutorial, a
-primer whose goal is to help you gain authonomy on learning Emacs with
-your own strengths.
+This book will not teach you everything on Emacs: it's a primer whose
+goal is to help you gain authonomy on learning Emacs with your own
+strengths.
 
 Each chapter:
 

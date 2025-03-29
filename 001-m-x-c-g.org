@@ -29,7 +29,8 @@ Close it with:
 | Type =quit-window= |                                    |
 | Hit =Return=       |                                    |
 
-If you find yourself stuck, =Ctrl-g= is your friend.
+If you find yourself stuck, =Ctrl-g= is your friend. In some specific
+cases you will learn that =q= is a way to quit.
 
 Everything in Emacs is a command: saving files, committing to Git, etc.
 Even typing a single character is a command you can run with =Alt-x=.\\
