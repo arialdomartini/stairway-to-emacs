@@ -39,7 +39,7 @@ You should get:
 | Windows          | =c:/Users/<YOUR_ACCOUNT>/AppData/Roaming/.emacs.d/init.el=           |
 | Linux and macOS  | =~/.config/emacs.d/init.el= or =~/.emacs.el= or =~/.emacs.d/init.el= |
 
-
+** Enable verticol.el
 Edit this file (feel free to use your preferred editor!) and write:
 
 #+begin_src elisp
@@ -65,7 +65,6 @@ script:
 | =ensure t=             | downloading it from the internet, if not present.                                                                                                                                                                       |
 | =:config=              | and when it's ready...                                                                                                                                                                                                  |
 | =(vertico-mode))=      | activate it!                                                                                                                                                                                                            |
-
 
 Save the file, close Emacs (=M-x save-buffers-kill-terminal RET=) and
 reopen it. If you felt so brave to edit this file directly with Emacs,
@@ -101,5 +100,22 @@ Eventually, as you install a package, you will like to find out all of
 its functionalities reading its documentation. But take your time:
 you just started the journey and Emacs is going to accompany you
 forever.
+
+** What the hell, Emacs! Hands off my init file!
+Reopening your init file, you may find out that there are some lines
+you never typed. Emacs has the horrible habit of storing customization
+info there.
+
+Delete them. Then instruct Emacs to stop doing that again, adding the
+following line at the very beginning:
+
+#+begin_src elisp
+(setq custom-file (make-temp-file "emacs-custom-"))
+#+end_src elisp
+
+It basically says: Emacs, for customization info you want to write
+down, use a file named after =emacs-custom-= prefix, and located in a
+temporary folder. Leave in full control of my own init file. Thank
+you.
 
 #+LINK: vertico https://github.com/minad/vertico
