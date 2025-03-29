@@ -1,7 +1,7 @@
 * Package in a bottle
 
-Using Emacs like this is a miserable experience: not very
-ergonomic.
+Many find using Emacs like this is a miserable and not very
+ergonomic experience.
 
 Improve it installing [[vertico][vertico.el]], a package that makes finding files
 and running commands more convenient. Your minibuffer will look like this:
@@ -9,11 +9,13 @@ and running commands more convenient. Your minibuffer will look like this:
 [[file:img/002/vertico.png]]
 
 
-You need to open the Emacs configuration file. To know where it is,
-ask Emacs directly. Emacs is the runtime of an interactive programming
-language, so it comes with variables. The one containing the
-configuration file path is =user-init-file=. Use =describe-variable=
-to inspect it:
+You need to open the Emacs configuration file (or /init file/).
+
+** Find the init file
+To know where it is, ask Emacs directly. Emacs is the runtime of an
+interactive programming language, so it comes with variables. The
+variable containing the init file path is =user-init-file=. Use
+=describe-variable= to inspect it:
 
 | Do                                             | Comment                                                |
 |------------------------------------------------+--------------------------------------------------------|
@@ -22,11 +24,13 @@ to inspect it:
 Alternatively, evaluate the variable in the Scratch Buffer, a
 disposable area free for you to use for impromptu experiments:
 
-| Do                       | Comment                                               |
-|--------------------------+-------------------------------------------------------|
-| =M-x scratch-buffer RET= | Open the scratch buffer.                              |
-| Type =user-init-file=    | Keep the cursor right after the last =e=.             |
-| =M-x eval-last-sexp RET= | This =eval=uates the =last= =s=symbolic-=exp=ression. |
+| Do                       | Comment                                      |
+|--------------------------+----------------------------------------------|
+| =M-x scratch-buffer RET= | Open the scratch buffer.                     |
+| Type =user-init-file=    | Keep the cursor right after the last =e=.    |
+| =M-x eval-last-sexp RET= | This EVALuates the LAST Symbolic-EXPression. |
+
+
 
 You should get:
 
@@ -53,14 +57,14 @@ Given that an expression like =(f a b)= in Emacs is equivalent to
 JavaScript's =f(a, b)=, here's an explanation of your first =init.el=
 script:
 
-| Expression             | Meaning                                                                                                              |
-|------------------------+----------------------------------------------------------------------------------------------------------------------|
-| =(require 'package)=   | This is equivalent to JS' =require= or Python's / Java's =import=. =package= is the Emacs' built-in package manager. |
-| =(package-initialize)= | Initialize the package manager.                                                                                      |
-| =(use-package vertico= | Load the package =vertico=                                                                                           |
-| =ensure t=           | downloading it from the internet, if not present.                                                                    |
-| =config=             | and when it's ready...                                                                                               |
-| =(vertico-mode))=    | activate it!                                                                                                         |
+| Expression             | Meaning                                                                                                                                                                                                                 |
+|------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| =(require 'package)=   | This is equivalent to JS' =require= or Python's / Java's =import=. =package= is the Emacs' built-in package manager. The ='= before =package= means "consider the word 'package' literally: it is not a variable name."      |
+| =(package-initialize)= | Initialize the package manager.                                                                                                                                                                                         |
+| =(use-package vertico= | Load the package =vertico=                                                                                                                                                                                              |
+| =ensure t=             | downloading it from the internet, if not present.                                                                                                                                                                       |
+| =:config=              | and when it's ready...                                                                                                                                                                                                  |
+| =(vertico-mode))=      | activate it!                                                                                                                                                                                                            |
 
 
 Save the file, close Emacs (=M-x save-buffers-kill-terminal RET=) and
@@ -73,21 +77,24 @@ you don't need to quit it: just run =M-x eval-buffer= to execute
 which is compiled to native code and run.)
 
 ** Try [[vertico][vertico.el]]
-Try again typing =M-x find-file=. Cool! Now there is a real-time list
-of matching candidates while you type the command. And a real-time,
-searchable list of files too.
+Try again with =M-x find-file=. Cool! Now there is a real-time list of
+command candidates while you type. And when you hit =RET=, a
+real-time, searchable list of files.
 
-Notice that when you type =find-file= the list of candidates also
-suggests key bindings. The one for =find-file= is =C-x C-f=. Good to
-know. Eventually, you might to use a shortcut instead of the whole
-command. (Hey! Be aware that =C-x f= and =C-x C-f= are 2 distinct key
-bindings!)
+Notice that the list of candidates also suggests their key
+bindings. The one for =find-file= is =C-x C-f=. Good to know. (Hey! Be
+aware that =C-x f= and =C-x C-f= are 2 distinct key bindings!)
 
-Notice the last line of your =init.el= file and remember that =(f a
-b)= is the equivalent of other languages' =f(a, b)=: so,
-=(vertico-mode)= means you are invoking the function =vertico-mode=.
-Try running it directly with =M-x=: it will enable and disable
-=vertico.el=.
+Notice the last line of your =init.el= file:
+
+#+begin_src elisp
+(vertico-mode)
+#+end_src elisp
+
+Remember that =(f a b)= is the equivalent of other languages' =f(a,
+b)=: so, =(vertico-mode)= means you are invoking the function
+=vertico-mode=. You can also run is with =M-x=: it will enable
+and disable =vertico.el=.
 
 [[vertico][vertico.el]] does much more than what you just saw.\\
 Eventually, as you install a package, you will like to find out all of
