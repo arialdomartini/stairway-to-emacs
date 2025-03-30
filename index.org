@@ -6,5 +6,3 @@
 - [[file:005-jump.org][Day 5 - Might as well jump (jump!): consult.el]]
 - [[file:006-themes.org][Day 6 - Sweet Themes (Are Made of This)]]
 - [[file:007-help.org][Day 7 - Help! I need somebody, help!]]
-- Day 8 - It's a kind of magit!
-- Day 9 - Highway to Shell
