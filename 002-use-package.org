@@ -30,14 +30,18 @@ disposable area free for you to use for impromptu experiments:
 | Type =user-init-file=    | Keep the cursor right after the last =e=.    |
 | =M-x eval-last-sexp RET= | This EVALuates the LAST Symbolic-EXPression. |
 
-
-
 You should get:
 
-| Operating system | Value of =user-init-file=                                            |
-|------------------+----------------------------------------------------------------------|
-| Windows          | =c:/Users/<YOUR_ACCOUNT>/AppData/Roaming/.emacs.d/init.el=           |
-| Linux and macOS  | =~/.config/emacs.d/init.el= or =~/.emacs.el= or =~/.emacs.d/init.el= |
+| Operating system | Value of =user-init-file=                                  |
+|------------------+------------------------------------------------------------|
+| Windows          | =c:/Users/<YOUR_ACCOUNT>/AppData/Roaming/.emacs.d/init.el= |
+| Linux and macOS  | =~/.config/emacs.d/init.el= or =~/.emacs.d/init.el=        |
+
+It is possible that your Emacs is using a file from a legacy path
+(=~/.emacs.el= or =~/.emacs=). If so, I suggest you to delete that
+file and to create an empty file either in the XDG-compliant location
+(=~/.config/emacs.d/init.el=) or in =~/.emacs.d/init.el=
+
 
 ** Enable verticol.el
 Edit this file (feel free to use your preferred editor!) and write:
