@@ -73,7 +73,7 @@ script:
 Save the file, close Emacs (=M-x save-buffers-kill-terminal RET=) and
 reopen it. If you felt so brave to edit this file directly with Emacs,
 you don't need to quit it: just run =M-x eval-buffer= to execute
-=init.el= in place.
+your init file in place.
 
 (I intentionnally said *execute*: indeed, =init.el= is not a
 /configuration file/, but the source code of a program you write,
