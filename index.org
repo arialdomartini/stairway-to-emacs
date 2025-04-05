@@ -6,3 +6,4 @@
 - [[file:005-jump.org][Day 5 - Might as well jump (jump!): consult.el]]
 - [[file:006-themes.org][Day 6 - Sweet Themes (Are Made of This)]]
 - [[file:007-help.org][Day 7 - Help! I need somebody, help!]]
+- [[file:008-undo.org][Day 8 - Undo Do Do Do, De Da Da Da]]

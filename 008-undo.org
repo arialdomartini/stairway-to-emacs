@@ -1,0 +1,60 @@
+* Undo Do Do Do, De Da Da Da
+
+So, if =Ctrl-z= is not for undoing changes, what's the Emacs way then?
+Think about it: It must be a command. Try with =M-x describe-command
+RET undo= to see if there are commands matching the word
+"undo". Bingo!  There's in fact an =undo= command, associated to =C-/=
+and described as:
+
+
+#+BEGIN_QUOTE
+It is bound to C-_, <undo>, C-/ and C-x u.
+
+(undo &optional ARG)
+
+Undo some previous changes.
+#+END_QUOTE
+
+Seems to be our guy. Try yourself: whenever you are tempted to hit
+=C-z=, use =C-/= instead. \\
+If you are really fond to =C-z=, bind it to =undo= adding this to your
+init file:
+
+#+begin_src elisp
+(global-set-key (kbd "C-z") 'undo)
+#+end_src elisp
+
+** It's a very special undo
+Emacs' =undo= is smarter than the undo mechanisms in most other
+editors. Unlike the typical /going back in time/ approach, Emacs
+treats undoing things as /reapplying a change to return to a previous
+state/. I mean, undoing something /adds/ a new operation, which in
+turn can be undone. In this sense, it is closer to =git revert= than
+=git reset=.
+
+Confused? Here's an example:
+
+1. Type a few sentences in 3 or 4 lines.
+
+2. Undo just enough to get to 1 or 2 lines only.
+
+3. Make a change.
+
+4. Hold on a second and reflect: in most of the editors, by making
+   that change in the middle of an undo, would overwrite / destroy the
+   past changes, right?
+
+5. Not in Emacs: hit =C-/= multiple times, and see Emacs going back in
+   time, actually re-doing your undoes. Nothing is ever lost.
+
+So, it's like =undo= /appends/ new undoing changes on top of a stack of
+changes. Any cursor movement would stop this and start over.
+
+Most likely now you see the power of this but still think "This is so
+confusing!", right? I agree, *it is* confusing. It's time to jump to
+the next chapter and remove this confusion.
+
+** Pro-hint for Bash
+Open a terminal a try yourself: =C-/= also works in Bash. Cool, isn't
+it?
+   
