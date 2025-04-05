@@ -91,6 +91,8 @@ Add this to your init file:
 
 (The =:config= part is for using unicode chars in the display).
 
+[[file:img/009/vundo.gif]]
+
 Et voilà! From now on, you can travel back and forth in time, jumping
 from one branch to another, just using your arrow keys. \\
 Lose your changes no more!
