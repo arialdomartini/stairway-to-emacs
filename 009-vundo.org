@@ -1,7 +1,6 @@
 * Vundo Child
-Basically, the way undo works in normal editors is:
-
-For each change, a state is recorded in some internal structure:
+Here is how undo works in normal editors. For each change, a state is
+recorded in some internal structure:
 
 #+begin_src
 s1 --> s2 --> s3 --> s4 --> s5
@@ -57,7 +56,7 @@ So, if you make changes from there, no information will be lost:
 #+begin_src
 s1 --> s2 --> s3 --> s4 --> s5
                               \
-                               `--> s4 --> s3 --> s2 --> sx  --> sy 
+                               `--> s4 --> s3 --> s2 --> sx --> sy 
 #+end_src
 
 
