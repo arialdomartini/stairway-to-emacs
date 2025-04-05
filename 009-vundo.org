@@ -1,0 +1,102 @@
+* Vundo Child
+Basically, the way undo works in normal editors is:
+
+For each change, a state is recorded in some internal structure:
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+#+end_src
+
+You can undo by /going back in time/, say to =s2=:
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+        |
+        undo reinstating this
+#+end_src
+
+You are still able to /move forward in time/ (in a sense, undoing
+   the undo):
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+               |
+               undo reinstating this
+#+end_src
+
+But as soon as you make a modification, you break the undo history:
+
+#+begin_src
+s1 --> s2 --> s3 ~~> s4 ~~> s5  // oh no! This branch is gone
+                \
+                 sx --> sy
+#+end_src
+   
+** And Emacs?
+Emacs won't delete this branch. \\
+It undoes by appending new operations. So, if this is your undo history:
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+#+end_src
+
+
+undoing up to =s2= means restoring =s4=, =s3= and =s2= /re-appending
+them to the history/:
+
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+                              \
+                               `--> s4 --> s3 --> s2
+#+end_src
+
+So, if you make changes from there, no information will be lost:
+
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+                              \
+                               `--> s4 --> s3 --> s2 --> sx  --> sy 
+#+end_src
+
+
+Fine. But as an editor user, this does not look very convenient, does
+it?
+
+** Gimme branches!
+Wouldn't it be wonderful if Emacs just offered you an undo tree
+displayed as:
+
+#+begin_src
+s1 --> s2 --> s3 --> s4 --> s5
+               \
+                sx --> sy
+#+end_src
+
+for you to freely browse?
+
+Enter =vundo=. \\
+It is a little built-in package that builds on top of the native
+Emacs' appending-undo to provide you with a Git-like undo
+functionality.
+
+Add this to your init file:
+
+#+begin_src elisp
+(use-package vundo
+  :config
+  (setq vundo-glyph-alist vundo-unicode-symbols))
+#+end_src elisp
+
+(The =:config= part is for using unicode chars in the display).
+
+Et voilà! From now on, you can travel back and forth in time, jumping
+from one branch to another, just using your arrow keys. \\
+Lose your changes no more!
+
+It's black magic voodoo, child!
+
+
+
+

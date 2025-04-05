@@ -51,10 +51,11 @@ So, it's like =undo= /appends/ new undoing changes on top of a stack of
 changes. Any cursor movement would stop this and start over.
 
 Most likely now you see the power of this but still think "This is so
-confusing!", right? I agree, *it is* confusing. It's time to jump to
-the next chapter and remove this confusion.
+confusing!", right? \\
+I agree, this *is* confusing. It's time to jump to the next chapter: I
+promise this will be crystal clear and intuitive soon.
 
 ** Pro-hint for Bash
-Open a terminal a try yourself: =C-/= also works in Bash. Cool, isn't
-it?
+Hey, before calling it a day: open a terminal a try yourself: =C-/=
+also works in Bash. Cool, isn't it?
    
