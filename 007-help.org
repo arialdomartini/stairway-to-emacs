@@ -53,5 +53,10 @@ And, finally, notice that this is dynamically generated documentation:
 you modify or add one, the documentation will be automatically
 updated. Neat.
 
+As a last resort, if you're unsure of exactly what you're looking
+for — whether it's a variable, a command, or something else — turn to
+=apropos=. It will display a comprehensive list of all symbols that
+match your specified pattern.
+
 Good read.
 
