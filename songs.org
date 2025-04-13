@@ -15,7 +15,7 @@
 | Killing in the name                | Rage Against the Machine | Killing text                 |
 | Space Oddity                       | David Bowie              | M-SPC                        |
 | Undo Do Do Do, De Da Da Da         | The Police               | Undo                         |
-
+| Embark at the moon                 | Ozzy Osbourne            | Embark                       |
 
 | Song                               | Band                     |                              |
 |------------------------------------+--------------------------+------------------------------|
